@@ -1,0 +1,312 @@
+body{
+    margin: 0;
+}
+
+a:active, /* активная/посещенная ссылка */
+a:hover,  /* при наведении */
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.wrapper button:hover{
+    background: yellow;
+    cursor: pointer;
+}
+
+.wrapper button:active{
+    border: 4px double black;
+    cursor: pointer;
+}
+
+@font-face {
+    font-family: "MullerBlack";
+    src: url("../assets/fonts/MullerBlack.woff");
+    font-style: normal;
+    font-weight: normal;
+
+}
+
+@font-face {
+    font-family: "MullerBold";
+    src: url("../assets/fonts/MullerBold.woff");
+    font-style: normal;
+    font-weight: normal;
+
+}
+
+@font-face {
+    font-family: "MullerRegular";
+    src: url("../assets/fonts/MullerRegular.woff");
+    font-style: normal;
+    font-weight: normal;
+
+}
+
+@font-face {
+    font-family: "MullerExtraBold";
+    src: url("../assets/fonts/MullerExtraBold.woff");
+    font-style: normal;
+    font-weight: normal;
+
+}
+
+.wrapper {
+    /*padding-left: 100px;*/
+    /*padding-right: 100px;*/
+}
+
+.advantageHeader {
+    color: #ffaf18;
+    margin-bottom: 5px;
+    font-family: "MullerExtraBold", "Times New Roman", serif;
+    font-size: 16px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    color: #ffc468;
+    width: 60%
+}
+
+.header-items {
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+    color: #a46b00;
+    font-family: "MullerRegular", "Times New Roman", serif;
+}
+
+.label {
+    font-family: "MullerBlack", "Times New Roman", serif;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+.content {
+    background: linear-gradient(to top, #FFFF 99%, #f0f0f0 100%);
+    margin-top: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.advertisementText {
+    font-family: "MullerExtraBold", "Times New Roman", serif;
+    padding-right: 50px;
+    font-size: 45px;
+    color: #b99050
+}
+
+.advertisementBigPizza {
+    margin-left: 50px;
+    margin-top: 60px;
+}
+
+.advertisementLeftPart {
+    display: flex;
+}
+
+.advertisement {
+    display: flex;
+    padding-top: 150px;
+}
+
+.advantage {
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.advantages {
+    padding-top: 30px;
+    width: 60%;
+}
+
+.advantage > div:nth-of-type(1) {
+    margin-left: 10px;
+}
+
+.advantages > div {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+button:hover{
+    background: brown;
+}
+
+.advantages button {
+    background: #ffaf18;
+    font-family: "MullerBold", "Times New Roman", serif;
+    height: 50px;
+    font-size: 16px;
+    width: 230px;
+    margin-top: 40px;
+    border: none;
+}
+
+.advantages > div:nth-of-type(2) {
+    margin-top: 30px;
+}
+
+.advantageContent {
+    font-family: "MullerRegular", "Times New Roman", serif;
+    width: 210px;
+}
+
+.fragmentAdvertisementText {
+    color: #ffaf18;
+}
+
+.pizzaSelection {
+    margin-top: 150px;
+
+}
+
+.pizzaSelection > p:nth-of-type(1) {
+    font-size: 35px;
+    text-align: center;
+    font-family: "MullerBold", "Times New Roman", serif;
+    color: #bd975c
+}
+
+.pizzaType {
+    padding: 20px;
+    height: 320px;
+    position: relative;
+    font-size: 18px;
+    font-family: "MullerBlack", "Times New Roman", serif;
+    width: 265px;
+    margin: 13px 13px;
+    text-align: center;
+    box-shadow: 0 1px 9px rgba(154, 147, 140, 0.57);
+}
+
+.pizzaSelection > div:nth-of-type(1) {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 50px -13px;
+}
+
+.pizzaType button {
+    background: #ffaf18;
+    position: absolute;
+    font-family: "MullerBold", "Times New Roman", serif;
+    height: 50px;
+    font-size: 16px;
+    width: 265px;
+    bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    border: none;
+}
+
+.pizzaType > span {
+    font-size: 14px;
+    font-family: "MullerRegular", "Times New Roman", serif;
+}
+
+.footer {
+    display: flex;
+    margin-top: 200px;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 10px
+}
+
+.footerLabel {
+    font-family: "MullerExtraBold", "Times New Roman", serif;
+    flex-grow: 1;
+    font-size: 35px;
+    width: 200px;
+    color: #b99150
+}
+
+.footerLabel > p > span:nth-of-type(1) {
+    color: #ffaf18
+}
+
+.footerLabel > div:nth-of-type(1) {
+    margin-top: 100px;
+    color: #b99150;
+    font-size: 16px;
+    font-family: "MullerRegular", "Times New Roman", serif;
+}
+
+.pizzaSlice {
+    margin-top: -50px;
+}
+
+.footerForm {
+    width: 600px;
+    position: relative;
+    text-align: center;
+}
+
+.footerForm form {
+    margin-top: 100px;
+}
+
+.footerForm input {
+    width: 400px;
+    border: 2px solid #b99150;
+    margin-bottom: 20px;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.footerForm input:focus:hover {
+    border: 2px solid #b99150;
+}
+
+.footerForm button {
+    background: #ffaf18;
+    font-family: "MullerBold", "Times New Roman", serif;
+    height: 50px;
+    font-size: 16px;
+    width: 420px;
+    bottom: 20px;
+    text-align: center;
+    border: none;
+}
+
+.footerForm p {
+    padding-top: 0;
+    margin-top: 0;
+}
+
+input::-webkit-input-placeholder {
+    color: #cba86e;
+}
+
+[type="text"]:focus {
+    outline: none;
+    border-color: #cba86e;
+}
+
+.popup{
+    position: sticky;
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    bottom: 50%;
+    background-color: #f0f0f0;
+}
